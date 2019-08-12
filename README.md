@@ -14,3 +14,11 @@ their search engine results.
     - Represent the directivity between pages:We use Transition Martrix.![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/transition%20matrix.png)
     -  Represent the importance of each website:We use PageRank Matrix.![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/PR%20Matrix.png)
 - Calculate PR1:![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/how%20to%20caculate%20PR1.png)
+- Calculate PR2:PR2=Transition Matrix * PR1
+- Calculate PR(N):PR(N)=Transition Matrix * PR(N - 1)
+## Improvement
+- There could be some edge cases:
+        - Dead ends:PR(N) matrix will become zeros finally.
+        - Spider traps:PR(N) matrix will be dominated by one page.
+- Solution:![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/improvement.png)
+
