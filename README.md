@@ -9,3 +9,4 @@ their search engine results.
 - Account Assumption：More important websites are likely to receive more links from other websites.
 - Quantity Assumption:：Website with higher PageRank will pass higher weight.
 ![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/PageRank.png)
+![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/PR.png)
