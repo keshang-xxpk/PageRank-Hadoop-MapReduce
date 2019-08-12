@@ -1,6 +1,8 @@
 # PageRank project
 ## Introduction
 In this project,I mock PageRank algorithm to rank websites in their search engine results using Hadoop,Mapreduce framework,Hbase,HDFS and etc.
+## PageRank workflow
+![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/PR%20WORKFLOW.png)
 ## What is PageRank?
 - PageRank is an algorithm used by Google Search to rank websites in
 their search engine results.
