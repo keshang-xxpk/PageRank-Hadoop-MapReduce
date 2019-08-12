@@ -25,6 +25,16 @@ their search engine results.
 - Implement PageRank with MapReduce
 ![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/PR%20ON%20MR.png)
 ![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/Screen%20Shot%202019-08-12%20at%202.39.37%20PM.png)
+- MR1.Mapper1
+![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/MR1.Mapper1.png)
+- MR1.Mapper2
+![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/MR2.Mapper2.png)
+- MR1.Reducer
+![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/MR1.Reducer.png)
+![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/MR1.png)
+- MR2.Mapper:Read file generated from last MR
+- MR2.Reducer
+![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/MR2.Reducer.png)
 
 ## Improvement
 - There could be some edge cases:
