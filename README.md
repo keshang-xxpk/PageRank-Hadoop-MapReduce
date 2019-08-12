@@ -13,3 +13,4 @@ their search engine results.
 - More important websites are likely to receive more links from otherwebsites.
     - Represent the directivity between pages:We use Transition Martrix.![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/transition%20matrix.png)
     -  Represent the importance of each website:We use PageRank Matrix.![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/PR%20Matrix.png)
+- Calculate PR1:![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/how%20to%20caculate%20PR1.png)
