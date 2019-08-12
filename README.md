@@ -18,6 +18,10 @@ their search engine results.
 - Calculate PR1:![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/how%20to%20caculate%20PR1.png)
 - Calculate PR2:PR2=Transition Matrix * PR1
 - Calculate PR(N):PR(N)=Transition Matrix * PR(N - 1)
+## Implement PageRank with MapReduce
+- Input format
+        - Input1:Relations.txt ![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/Relations.txt.png)
+        - Input2:PR.txt ![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/PR.txt.png)
 ## Improvement
 - There could be some edge cases:
         - Dead ends:PR(N) matrix will become zeros finally.
