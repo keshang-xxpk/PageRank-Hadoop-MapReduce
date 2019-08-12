@@ -43,10 +43,16 @@ their search engine results.
 - Solution:![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/improvement.png)
 ## Visualize PageRank Project
 ```BASH
-#Download frontend source code 
+#Step1.Download frontend source code 
 wget https://s3-us-west-2.amazonaws.com/jiuzhang-bigdata/pagerank_search.tar
-#Decompression the package
+#Step2.Decompression the package
 tar -xvf pagerank_search.tar
-cd pagerank_search</pre>
+cd pagerank_search
+#Step3.Change the data/result.csv into result.csv file 
+#input"python parse.py"and get "result.json" file
+python parse.py
+python -m SimpleHTTPServer 8000
+#http://localhost:8000 
+#
 ```
 
