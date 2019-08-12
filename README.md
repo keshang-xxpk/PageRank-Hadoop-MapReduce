@@ -41,4 +41,12 @@ their search engine results.
         - Dead ends:PR(N) matrix will become zeros finally.
         - Spider traps:PR(N) matrix will be dominated by one page.
 - Solution:![](https://github.com/keshang-xxpk/PageRank-Hadoop-MapReduce/blob/master/assert/improvement.png)
+## Visualize PageRank Project
+```BASH
+#Download frontend source code 
+wget https://s3-us-west-2.amazonaws.com/jiuzhang-bigdata/pagerank_search.tar
+#Decompression the package
+tar -xvf pagerank_search.tar
+cd pagerank_search</pre>
+```
 
